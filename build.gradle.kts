@@ -30,6 +30,9 @@ subprojects {
         mavenLocal()
         mavenCentral()
         maven {
+            url = uri("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
+        }
+        maven {
             url = uri("https://oss.sonatype.org/content/repositories/snapshots/")
         }
         maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
